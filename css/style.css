@@ -12,11 +12,16 @@ a {
   color: black;
 }
 p {
-    font-size: medium;
+  font-size: 1me;
 }
 .margin-top-2em {
-    margin-top: 2em;
+  margin-top: 2em;
 }
+main div {
+  height: 200px;
+  width: 100%;
+}
+
 /* utility class */
 .button {
   padding: 5px 10px;
@@ -63,10 +68,9 @@ p {
   width: 100%;
 }
 .jumbotron {
-    height: 100%;
-    width: 80%;
-    padding-top: 100px;
-    margin: 0 auto;
+  width: 80%;
+  padding-top: 100px;
+  margin: 0 auto;
 }
 .main-jumbo {
   display: flex;
@@ -74,23 +78,53 @@ p {
 }
 .description-jumbo {
   width: 30%;
-  padding-top: 50px;
+  padding-top: 70px;
 }
 
 .img-jumbo {
   width: 70%;
   position: relative;
-  top: 50px;
+  top: 70px;
 }
 img {
-    max-width: 100%;
+  max-width: 100%;
 }
 .download-jumbo {
-    margin-top: 2.5em;
-    font-size: 3em;
-    color: black;
+  margin-top: 2.5em;
+  font-size: 3em;
+  color: black;
 }
 .title-jumbo {
-    font-size: 5em;
-    font-weight: bold;
+  font-size: 5em;
+  font-weight: bold;
+}
+footer {
+  background-color: black;
+  width: 100%;
+}
+.container-footer {
+  margin: 0 auto;
+  width: 80%;
+  color: white;
+}
+.list-footer {
+  padding: 50px 0;
+  display: flex;
+  justify-content: space-between;
+  line-height: 2em;
+}
+.list-footer h3 {
+  font-size: 1.5em;
+  margin-bottom: 1.5em;
+  font-weight: bold;
+}
+.end-bar p {
+  padding: 20px 0;
+  border-top: 2px solid white;
+}
+.categoria {
+  width: calc(80% / 5);
+}
+.container-footer a {
+  color: white;
 }
