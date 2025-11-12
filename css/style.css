@@ -1,50 +1,96 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
 }
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 a {
-    text-decoration: none;
+  text-decoration: none;
+  color: black;
+}
+p {
+    font-size: medium;
+}
+.margin-top-2em {
+    margin-top: 2em;
 }
 /* utility class */
 .button {
-    padding: 5px 10px;
-    background-color: blue;
-    color: white;
+  padding: 5px 10px;
+  background-color: #0061fe;
+  color: white;
 }
 
 /* regole pagina */
 .nav-bar-container {
-    background-color: white;
-    width: 100%;
-    position: fixed;
-    z-index: 900;
-    display: flex;
-    height: 40px;
-    justify-content: flex-start;
-    align-items: center;
+  background-color: white;
+  width: 100%;
+  position: fixed;
+  z-index: 900;
+  display: flex;
+  height: 40px;
+  justify-content: flex-start;
+  align-items: center;
 }
 .nav-bar-container img {
-    max-width: 100%;
-    padding: 5px 10px;
+  max-width: 100%;
+  padding: 5px 10px;
 }
 .nav-bar {
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
 }
 .nav-bar ul {
-    display: flex;
+  display: flex;
 }
 .nav-bar li {
-    padding:0 1em;
-    display: flex;
-    align-items: center;
+  padding: 0 1em;
+  display: flex;
+  align-items: center;
+  font-size: 1em;
+  color: gray;
 }
 .nav-bar li:hover {
-    border-bottom: 2px solid black;
+  border-bottom: 2px solid black;
+}
+.jumbotron-container {
+  background-color: #b4d0e6;
+  width: 100%;
+}
+.jumbotron {
+    height: 100%;
+    width: 80%;
+    padding-top: 100px;
+    margin: 0 auto;
+}
+.main-jumbo {
+  display: flex;
+  justify-content: space-between;
+}
+.description-jumbo {
+  width: 30%;
+  padding-top: 50px;
+}
+
+.img-jumbo {
+  width: 70%;
+  position: relative;
+  top: 50px;
+}
+img {
+    max-width: 100%;
+}
+.download-jumbo {
+    margin-top: 2.5em;
+    font-size: 3em;
+    color: black;
+}
+.title-jumbo {
+    font-size: 5em;
+    font-weight: bold;
 }
