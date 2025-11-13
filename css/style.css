@@ -127,8 +127,8 @@ footer {
   width: 70%;
 }
 
-.piano-abbonamento h2 {
-   font-size: xx-large;
+h2 {
+  font-size: xx-large;
 }
 .tipo-fatturazione {
   padding: 2em 0;
@@ -195,8 +195,8 @@ footer {
   padding-bottom: 20px;
 }
 .piano .button {
- margin: 2em 0;
- text-align: center;
+  margin: 2em 0;
+  text-align: center;
 }
 .piano .acquista-ora {
   color: blue;
@@ -222,7 +222,7 @@ footer {
 .main-card .contact {
   display: flex;
   justify-content: space-between;
-  align-items:start;
+  align-items: start;
   padding: 30px;
 }
 .contact .prezzo {
@@ -247,10 +247,25 @@ footer {
   width: 32%;
   padding-top: 50px;
 }
-.partner .description-partner a{
+.partner .description-partner a {
   padding: 5px 15px;
   border: 2px solid gray;
 }
 .description-partner div {
-    margin-top: 2em;
+  margin-top: 2em;
+}
+
+.tipo-operazioni-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 4em;
+}
+.card-operazione {
+  width: 30%;
+  padding-bottom: 4em;
+}
+.card-operazione img {
+  max-width: 100%;
 }
