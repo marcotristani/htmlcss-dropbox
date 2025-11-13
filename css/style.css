@@ -4,25 +4,21 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
 }
+/* utility class */
 ul {
   list-style-type: none;
 }
 a {
   text-decoration: none;
-  color: black;
+  color: unset;
 }
 p {
-  font-size: 1me;
+  font-size: 1em;
 }
 .margin-top-2em {
   margin-top: 2em;
 }
-main div {
-  height: 200px;
-  width: 100%;
-}
 
-/* utility class */
 .button {
   padding: 5px 10px;
   background-color: #0061fe;
@@ -125,6 +121,13 @@ footer {
 .categoria {
   width: calc(80% / 5);
 }
-.container-footer a {
-  color: white;
+.wrapper {
+  margin: 0 auto;
+  width: 80%;
 }
+.container-card-piani {
+  display: flex;
+  justify-content: space-between;
+
+}
+
