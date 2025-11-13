@@ -231,3 +231,26 @@ footer {
 .contact .description-piano {
   width: 70%;
 }
+.partner {
+  padding: 200px 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.partner .img-partner {
+  width: 65%;
+}
+.partner img {
+  max-width: 100%;
+}
+.partner .description-partner {
+  width: 32%;
+  padding-top: 50px;
+}
+.partner .description-partner a{
+  padding: 5px 15px;
+  border: 2px solid gray;
+}
+.description-partner div {
+    margin-top: 2em;
+}
