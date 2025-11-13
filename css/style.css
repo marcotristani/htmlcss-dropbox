@@ -24,7 +24,15 @@ p {
   background-color: #0061fe;
   color: white;
 }
-
+.ancora-underline {
+  color: blue;
+  text-decoration: underline;
+}
+.tipo-piano {
+  font-size: x-large;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
 /* regole pagina */
 .nav-bar-container {
   background-color: white;
@@ -44,7 +52,7 @@ p {
   height: 100%;
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 85%;
 }
 .nav-bar ul {
   display: flex;
@@ -85,6 +93,9 @@ p {
 img {
   max-width: 100%;
 }
+.description-jumbo .button {
+  max-width: fit-content;
+}
 .download-jumbo {
   margin-top: 2.5em;
   font-size: 3em;
@@ -95,6 +106,7 @@ img {
   font-weight: bold;
 }
 footer {
+  margin-top: 5em;
   background-color: black;
   width: 100%;
 }
@@ -170,11 +182,7 @@ h2 {
 .piano {
   padding: 30px 15px;
 }
-.tipo-piano {
-  font-size: x-large;
-  font-weight: bold;
-  margin-bottom: 15px;
-}
+
 .prezzo {
   font-size: medium;
   font-weight: bold;
@@ -198,10 +206,7 @@ h2 {
   margin: 2em 0;
   text-align: center;
 }
-.piano .acquista-ora {
-  color: blue;
-  text-decoration: underline;
-}
+
 .piano .divisory {
   color: gray;
   padding: 10px;
@@ -268,4 +273,7 @@ h2 {
 }
 .card-operazione img {
   max-width: 100%;
+}
+.clienti {
+  padding: 5em 0;
 }
