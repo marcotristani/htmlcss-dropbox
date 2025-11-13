@@ -160,22 +160,22 @@ footer {
   width: 31%;
   border: 1px solid gray;
 }
-.card-piano .title-card-piano {
+.title-card-piano {
   text-align: center;
   padding: 5px 0;
   border-bottom: 1px solid gray;
   font-size: medium;
   font-weight: 500;
 }
-.card-piano .piano {
+.piano {
   padding: 30px 15px;
 }
-.piano .tipo-piano {
-  font-size: large;
+.tipo-piano {
+  font-size: x-large;
   font-weight: bold;
   margin-bottom: 15px;
 }
-.piano .prezzo {
+.prezzo {
   font-size: medium;
   font-weight: bold;
   margin-bottom: 8px;
@@ -214,4 +214,20 @@ footer {
 .piano .list-punti-salienti td.icon {
   color: blue;
   font-weight: bolder;
+}
+.main-card {
+  margin: 40px 0;
+  border: 1px solid gray;
+}
+.main-card .contact {
+  display: flex;
+  justify-content: space-between;
+  align-items:start;
+  padding: 30px;
+}
+.contact .prezzo {
+  margin-bottom: 3em;
+}
+.contact .description-piano {
+  width: 70%;
 }
