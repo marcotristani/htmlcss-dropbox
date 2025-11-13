@@ -64,7 +64,7 @@ p {
   width: 100%;
 }
 .jumbotron {
-  width: 80%;
+  width: 85%;
   padding-top: 100px;
   margin: 0 auto;
 }
@@ -100,7 +100,7 @@ footer {
 }
 .container-footer {
   margin: 0 auto;
-  width: 80%;
+  width: 85%;
   color: white;
 }
 .list-footer {
@@ -122,12 +122,96 @@ footer {
   width: calc(80% / 5);
 }
 .wrapper {
+  padding-top: 100px;
   margin: 0 auto;
-  width: 80%;
+  width: 70%;
+}
+
+.piano-abbonamento h2 {
+   font-size: xx-large;
+}
+.tipo-fatturazione {
+  padding: 2em 0;
+  display: flex;
+}
+.tipo-fatturazione li {
+  margin-right: 2.5em;
+}
+
+.tipo-fatturazione span {
+  border-radius: 50%;
+  padding: 5px;
+  font-size: 0;
+  vertical-align: middle;
+}
+.tipo-fatturazione .selezionato {
+  border: 4px solid blue;
+  padding: 3px;
+}
+.tipo-fatturazione .non-selezionato {
+  border: 2px solid gray;
 }
 .container-card-piani {
   display: flex;
   justify-content: space-between;
-
+  width: 100%;
 }
-
+.card-piano {
+  width: 31%;
+  border: 1px solid gray;
+}
+.card-piano .title-card-piano {
+  text-align: center;
+  padding: 5px 0;
+  border-bottom: 1px solid gray;
+  font-size: medium;
+  font-weight: 500;
+}
+.card-piano .piano {
+  padding: 30px 15px;
+}
+.piano .tipo-piano {
+  font-size: large;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+.piano .prezzo {
+  font-size: medium;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.piano .condizioni-piano {
+  font-size: small;
+  font-weight: 200;
+  color: gray;
+  margin-bottom: 2em;
+}
+.piano td.icon {
+  vertical-align: top;
+  font-size: large;
+  font-weight: bold;
+}
+.piano td {
+  padding-bottom: 20px;
+}
+.piano .button {
+ margin: 2em 0;
+ text-align: center;
+}
+.piano .acquista-ora {
+  color: blue;
+  text-decoration: underline;
+}
+.piano .divisory {
+  color: gray;
+  padding: 10px;
+}
+.piano .title-list-punti-salienti {
+  padding: 15px 0;
+  font-size: medium;
+  font-weight: bold;
+}
+.piano .list-punti-salienti td.icon {
+  color: blue;
+  font-weight: bolder;
+}
