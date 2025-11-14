@@ -40,7 +40,6 @@ p {
   position: fixed;
   z-index: 900;
   display: flex;
-  height: 40px;
   justify-content: flex-start;
   align-items: center;
 }
@@ -58,9 +57,7 @@ p {
   display: flex;
 }
 .nav-bar li {
-  padding: 0 1em;
-  display: flex;
-  align-items: center;
+  padding: 20px 1em;
   font-size: 1em;
   color: gray;
 }
@@ -276,4 +273,21 @@ h2 {
 }
 .clienti {
   padding: 5em 0;
+}
+.dropdown {
+  position: relative;
+}
+.contenuto-dropdown {
+  display: none;
+  position: absolute;
+}
+.dropdown:hover .contenuto-dropdown{
+  display: block;
+}
+.contenuto-dropdown a {
+  display: block;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  width: 100px;
 }
